@@ -1,0 +1,82 @@
+h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+   
+}
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+}
+body {
+        background-image: url("http://www.gamerbro.fr/wp-content/uploads/2015/11/rendition1.img_.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+
+    }
+button {
+    padding: 1rem 1.2rem;
+    border-radius: 1rem;
+    border-width: 1rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    border: 3px solid black;
+    outline-color:rgb(28, 204, 186);
+    background-color: lightgreen;
+    width:200px;
+    color: black;
+    font-size: 2rem;
+    float: center;
+}
+
+button:hover {
+    background-color: rgb(8, 206, 147); 
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation : landscape)  { 
+    .answer-options {
+        width: 500px;
+        margin: 0 auto;
+
+    }
+}
+
+.answer-options button{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.question-number h1{
+    margin-top: 1rem;
+}
+
+#answer-container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#answer-container .correct, #answer-container .wrong {
+    padding: 1rem;
+    border: solid transparent; 
+    border-radius: 3rem;
+    background-color: transparent;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#answer-response {
+
+}
+
+#answer-response.correct {
+    color: green;
+}
+
+#answer-response.wrong {
+    color: red;
+}
+
+#btn-next {
+    display: none;
+    
+}

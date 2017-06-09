@@ -1,0 +1,33 @@
+{
+   "questionsList":
+   [
+       {
+           "id":"1",
+           "questionText":"On Which Planet Did Luke SkyWalker Grow Up On",
+           "backgroundImage":"http://a.dilcdn.com/bl/wp-content/uploads/sites/6/2016/03/TOT-2.jpg",
+           "answerOptions":
+           {
+               "1":"Alderaan",
+               "2":"Tatooine",
+               "3":"Naboo",
+               "4":"Hoth"
+           },
+           "correct":"2"
+       },
+       {
+           "id":"2",
+           "questionText":"In which year did the Titanic sink ?",
+           "backgroundImage":"http://www.nationalarchives.gov.uk/wp-content/uploads/2014/03/COPY_1_362_f125_19121.jpg",
+           "answerOptions":
+           {
+               "1":"1930",
+               "2":"1910",
+               "3":"1912",
+               "4":"1960"
+           },
+           "correct":"3"
+       }
+
+   ]
+      
+}
